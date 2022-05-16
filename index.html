@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Project</title>
 </head>
+<header>
+    <nav>
+        <a href="">Click Me</a>
+        <a href="">Click Me</a>
+        <a href="">Click Me</a>
+        <a href="">Click Me</a>
+      </nav>
+</header>
 <body>
 
     <h1>I wasnt sure what to make</h1>
@@ -15,34 +23,45 @@
         <img src="evil.png" alt="evil cat" height="200" width="200">
         <img src="water.jpg" alt="thirsty cat" height="200" width="200">
         <img src="stare.jpg" alt="cat staring into the soul" height="200" width="200">
+        <figcaption>Some pictures of cats</figcaption>
     </div>
 
     <br>
 
     <table>
         <thead>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
         </thead>
         <tbody>
-            <td>one</td>
-            <td>two</td>
-            <td>three</td>
+            <tr>
+                <td>one</td>
+                <td>two</td>
+                <td>three</td>
+            </tr>
         </tbody>
         <tbody>
-            <td>|</td>
-            <td>||</td>
-            <td>|||</td>
+            <tr>
+                <td>|</td>
+                <td>||</td>
+                <td>|||</td>
+            </tr>
         </tbody>
     </table>
 
-    <ul>
-        <li>first</li>
-        <li>second</li>
-        <li>third</li>
-    </ul>
+    <br>
+    <details>
+        <summary>Important data</summary>
+        <label for="disk_c">Available brain power</label>
+        <meter id="disk_c" value="1" min="0" max="10">out of 10</meter><br>
 
-    
+        <label for="file">Rational thought in process:</label>
+        <progress id="file" value="32" max="100"> 32% </progress>
+    </details>
+
+
 </body>
 </html>
