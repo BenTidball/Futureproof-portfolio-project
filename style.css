@@ -1,0 +1,38 @@
+/*  nav  */
+#navigation-bar{
+    background-color: red;
+}
+
+#navigation-bar ul{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    margin-left: 5%;
+}
+
+#navigation-bar ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/*  Project  */
+#projects{
+    display: inline-flex;
+}
+
+.project-card{
+    background-color: gray;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.project-card img {
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100px;
+    width: 100px;
+}
