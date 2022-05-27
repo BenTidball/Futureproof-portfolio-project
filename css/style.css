@@ -2,7 +2,8 @@
 
 
 body{
-    background-color: rgb(78, 78, 78);
+    color: white;
+    background-color: rgb(27, 27, 27);
     font-family: 'Koulen', 'BIZ UDPGothic', sans-serif;
     font-size: 18px;
     display: flex;
@@ -19,28 +20,17 @@ main p{
 }
 
 /*  nav  */
+header{
+    background-color: rgb(39, 39, 39);
+}
 .nav{
     z-index: 10;
 }
 
 .nav-item a{
     font-size: 1.6em;
+    color: white;
 }
-
-/* index */
-#index-grid > div{
-    min-width: 200px;
-}
-
-#index-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#index-grid > div img{
-    width: 100%;
-}
-
 
 
 /* about me */
@@ -98,5 +88,9 @@ footer nav ul > li{
 @media only screen and (max-width: 767px) {
     .card{
         width: 70vw;
+    }
+
+    #index-grid{
+        grid-template-columns: 1fr;
     }
 }
